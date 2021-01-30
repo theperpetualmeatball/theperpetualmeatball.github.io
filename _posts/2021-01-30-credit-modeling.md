@@ -1,18 +1,21 @@
 ---
-title: "Data Wrangling Project"
-date: 2018-01-28
+title: "Lending Club Credit Modeling"
+date: 2020-08-01
 tags: [data wrangling, data science, messy data]
 header:
   image: "/images/perceptron/percept.jpg"
-excerpt: "Data Wrangling, Data Science, Messy Data"
+excerpt: "Lending Club, Credit Modeling, Risk"
 mathjax: "true"
 ---
 
-# H1 Heading
+# Introduction
 
-## H2 Heading
+In this project, we'll be working with financial lending data from Lending Club. Lending Club is a marketplace for personal loans that matches borrowers who are seeking a loan with investors looking to lend money and make a return.
 
-### H3 Heading
+Most investors use a portfolio strategy to invest small amounts in many loans, with healthy mixes of low, medium, and interest loans. We'll focus on the mindset of a conservative investor who only wants to invest in the loans that have a good chance of being paid off on time. To do that, we'll need to first understand the features in the dataset and then experiment with building machine learning models that reliably predict if a loan will be paid off or not.
+
+
+
 
 Here's some basic text.
 
