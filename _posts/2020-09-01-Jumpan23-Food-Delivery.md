@@ -1,5 +1,5 @@
 ---
-title: "Analyzing Food Delivery Market Trends in New York City"
+title: "Analyzing Food Delivery Trends in New York City"
 date: 2020-09-01
 tags: [food delivery, data science, new york city]
 header:
