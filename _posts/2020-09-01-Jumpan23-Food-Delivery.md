@@ -44,6 +44,18 @@ The most popular type of transportation for jumpman are bicycles, which makes se
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/vehicle_type.png" alt="data_types" width="80%" height="80%">
 
+ORDER STATS TBD - avg delivery times, prep times, etc. 
+
+## Customer Insights
+According the graph depicting order frequency vs number of customers, only 30% of Jumpman23's customers order more than once! 
+We can see that Jumpman23 has a problem with customer retention. 
+
+- 30% of customers order more than once
+- 15% of customers order more than two times
+- 7% of customers order more than 3 times
+- <4 % of customers order more than 4 times
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/frequency.png" alt="freq" width="80%" height="80%">
 
 
 
