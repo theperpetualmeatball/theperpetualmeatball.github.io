@@ -10,15 +10,17 @@ mathjax: "true"
 
 # Introduction
 
-Jumpman23 is an on-demand food delivery platform where "Jumpman" deliver orders to customers. Jumpman23 has recently launched in its newest market, New York City.
+Jumpman23 is an on-demand food delivery platform connecting customers to "Jumpman", a vast network of couriers. Jumpman23 recently launched in its newest market, New York City.
 
-We will be taking a look at the dataset to analyze performance metrics and find key trends, which can be used by the management to improve their service as well as help the marketing team better understand their customer behavior.
+We will be diving into the data to understand how Jumpman23's has performed in NY, as well as identify any key trends related to customer, merchant, and Jumpman behavior.
+
 
 ## Data Dictionary
 
 The data set consists of geographical coordinates corresponding to order pick up and drop off locations, delivery times, and categorical data. 
 
-image: "/images/perceptron/data_types.png"
+![image](/images/Jumpman23/'data_types.png')
+image: "/images/Jumpman23/data_types.png"
 
 Here's some basic text.
 
