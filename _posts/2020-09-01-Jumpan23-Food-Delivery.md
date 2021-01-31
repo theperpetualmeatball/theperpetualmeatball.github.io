@@ -12,16 +12,35 @@ mathjax: "true"
 
 Jumpman23 is an on-demand food delivery platform connecting customers to "Jumpman", a vast network of couriers. Jumpman23 recently launched in its newest market, New York City.
 
-We will be diving into the data to understand how Jumpman23's has performed in NY, as well as identify any key trends related to customer, merchant, and Jumpman behavior.
+We will be diving into the data to understand how Jumpman23's has performed in NY, as well as identify any key trends related to customer, merchant, and Jumpman behavior. 
 
 
 ### Data Dictionary
 
-The data set consists of order delivery times, vehicle types, merchant categorical data, and geographical coordinates corresponding to order pickup and drop off locations.
+The data set consists of order delivery times, vehicle types, merchant categorical data, and geographical coordinates corresponding to order pickup and drop off locations. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/data_types.png" alt="data_types">
 
 # Data Exploration
+
+After one month of launching Jumpman23's service in NYC, there have been 5214 orders places on the platform, 3192 unique customers acquired, and 898 merchant partners available on the platform. 
+
+## Trends in Delivery Times
+The graph below illustrates the number of orders per day in October. A cyclical pattern in the data shows a peak in the number of deliveries on Sundays. The increase in deliveries in the last half of September suggest that Jumpman23 may be growing in NYC.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/total_deliveries.png" alt="data_types">
+
+Sunday has the highest number of deliveries, followed by Thursday and Wednesday.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/day_of_week.png" alt="data_types">
+
+The two peak hours for delivery are at 12 pm and at 7 pm.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/hourly.png" alt="data_types">
+
+## Transportation Trends
+
+
 ## Where are the orders coming from?
 
 The heatmaps below show the geographical distribution of pickup and drop off locations in Manhattan, Brooklyn, and Queens. 
