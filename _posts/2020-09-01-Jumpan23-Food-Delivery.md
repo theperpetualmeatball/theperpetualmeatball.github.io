@@ -40,7 +40,7 @@ The two peak hours for delivery are at 12 pm and at 7 pm, correlating to lunch a
 
 ## Transportation Trends
 
-The most popular type of transportation for jumpman are bicycles, which makes sense given that they are the most economically feasible choice in NYC. 
+Bicycles are by far the most popular mode of transportation for jumpman, which makes sense given that they are the most economically feasible choice in NYC. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/vehicle_type.png" alt="data_types" width="80%" height="80%">
 
@@ -55,17 +55,18 @@ We can see that Jumpman23 has a problem with customer retention.
 - 7% of customers order more than 3 times
 - <4 % of customers order more than 4 times
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/frequency.png" alt="freq" width="80%" height="80%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/frequency.png" alt="freq" width="90%" height="90%">
+
+Acquiring new customers is very important when launching a business into a new market, and monitoring the number of new customers acquired per day can unlock some useful insights related to marketing performance. In October, Jumpman23 acquired an average of 106 new customers per day, and their growth rate appears to be declining over the month.  
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/new_customers.png" alt="new_customers" width="90%" height="90%">
+
+
+## Merchant Insights
 
 
 
-## Where are the orders coming from?
-
-The heatmaps below show the geographical distribution of pickup and drop off locations in Manhattan, Brooklyn, and Queens. 
-
-
-
-
+------------------------
 Here's some basic text.
 
 And here's some *italics*
