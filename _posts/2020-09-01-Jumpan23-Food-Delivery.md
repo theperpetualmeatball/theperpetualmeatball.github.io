@@ -15,13 +15,18 @@ Jumpman23 is an on-demand food delivery platform connecting customers to "Jumpma
 We will be diving into the data to understand how Jumpman23's has performed in NY, as well as identify any key trends related to customer, merchant, and Jumpman behavior.
 
 
-## Data Dictionary
+### Data Dictionary
 
-The data set consists of geographical coordinates corresponding to order pick up and drop off locations, delivery times, and categorical data. 
+The data set consists of order delivery times, vehicle types, merchant categorical data, and geographical coordinates corresponding to order pickup and drop off locations.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/data_types.png" alt="data_types">
 
-![alt]({{ site.url }}{{ site.baseurl }}/images/jumpman23/data_types.png)
+# Data Exploration
+## Where are the orders coming from?
+
+The heatmaps below show the geographical distribution of pickup and drop off locations in Manhattan, Brooklyn, and Queens. 
+
+
 
 
 Here's some basic text.
