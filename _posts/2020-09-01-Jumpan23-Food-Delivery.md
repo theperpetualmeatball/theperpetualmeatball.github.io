@@ -3,7 +3,7 @@ title: "Analyzing Market Trends for a Food Delivery Service"
 date: 2020-09-01
 tags: [food delivery, data science, new york city]
 header:
-  image: "/images/perceptron/percept.jpg"
+  image: "/images/jumpman23/banner.png"
 excerpt: "Marketing, Expansion, Food Delivery"
 mathjax: "true"
 ---
@@ -34,15 +34,16 @@ Sunday has the highest number of deliveries, followed by Thursday and Wednesday.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/day_of_week.png" alt="data_types" width="80%" height="80%">
 
-The two peak hours for delivery are at 12 pm and at 7 pm.
+The two peak hours for delivery are at 12 pm and at 7 pm, correlating to lunch and dinner!
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/hourly.png" alt="data_types" width="80%" height="80%">
 
 ## Transportation Trends
 
-The most popular type of transportation for jumpman are bicycles, followed by cars.
+The most popular type of transportation for jumpman are bicycles, which makes sense given that they are the most economically feasible choice in NYC. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/vehicle_type.png" alt="data_types" width="80%" height="80%">
+
 
 
 
