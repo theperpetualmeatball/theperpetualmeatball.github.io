@@ -28,15 +28,15 @@ After one month of launching Jumpman23's service in NYC, there have been 5214 or
 ## Trends in Delivery Times
 The graph below illustrates the number of orders per day in October. A cyclical pattern in the data shows a peak in the number of deliveries on Sundays. The increase in deliveries in the last half of September suggest that Jumpman23 may be growing in NYC.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/total_deliveries.png" alt="total_deliveries" width="70%" height="70%">>
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/total_deliveries.png" alt="total_deliveries" width="90%" height="90%">
 
 Sunday has the highest number of deliveries, followed by Thursday and Wednesday.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/day_of_week.png" alt="data_types">
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/day_of_week.png" alt="data_types" width="80%" height="80%">
 
 The two peak hours for delivery are at 12 pm and at 7 pm.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/hourly.png" alt="data_types">
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/hourly.png" alt="data_types" width="90%" height="90%">
 
 ## Transportation Trends
 
