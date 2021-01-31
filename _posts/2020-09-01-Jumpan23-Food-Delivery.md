@@ -21,6 +21,8 @@ The data set consists of geographical coordinates corresponding to order pick up
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/data_types.png" alt="data_types">
 
+![alt]({{ site.url }}{{ site.baseurl }}/images/jumpman23/data_types.png)
+
 
 Here's some basic text.
 
