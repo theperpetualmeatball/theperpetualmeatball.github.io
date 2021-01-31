@@ -36,9 +36,14 @@ Sunday has the highest number of deliveries, followed by Thursday and Wednesday.
 
 The two peak hours for delivery are at 12 pm and at 7 pm.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/hourly.png" alt="data_types" width="90%" height="90%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/hourly.png" alt="data_types" width="80%" height="80%">
 
 ## Transportation Trends
+
+The most popular type of transportation for jumpman are bicycles, followed by cars.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/vehicle_type.png" alt="data_types" width="80%" height="80%">
+
 
 
 ## Where are the orders coming from?
