@@ -19,7 +19,7 @@ We will be diving into the data to understand how Jumpman23's has performed in N
 
 The data set consists of geographical coordinates corresponding to order pick up and drop off locations, delivery times, and categorical data. 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/Jumpman23/data_types.png" alt="linearly separable data">
+<img src="{{ site.url }}{{ site.baseurl }}/images/Jumpman23/data_types.png" alt="data_types">
 
 
 Here's some basic text.
