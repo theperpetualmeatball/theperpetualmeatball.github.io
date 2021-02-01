@@ -81,13 +81,15 @@ Acquiring new customers is very important when launching a business into a new m
 ## Merchant Insights
 The top 10 categories and merchants are shown below. 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/top10categories.png" alt="top10categories" >
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/top10categories.png" alt="top10categories" width="90%" height="90%" >
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/top10merchants.png" alt="top10merchants" width="90%" height="90%">
 
 The average prep time is 31 minutes, and the average time the Jumpman waits at the pickup location is around 18 minutes. From the histogram, we see that most merchants take between 10-45 minutes to prepare orders. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/histogram.png" alt="top10merchants" width="90%" height="90%">
+
+## Geographical Distribution of Deliveries
 
 
 
