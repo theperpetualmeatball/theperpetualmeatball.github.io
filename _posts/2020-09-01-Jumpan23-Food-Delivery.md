@@ -40,9 +40,19 @@ The two peak hours for delivery are at 12 pm and at 7 pm, correlating to lunch a
 
 ## Transportation Trends
 
-Bicycles are by far the most popular mode of transportation for jumpman, which makes sense given that they are the most economically feasible choice in NYC. 
+Bicycles are by far the most popular mode of transportation for a Jumpman, which makes sense given that they are the most economically feasible choice in NYC. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/vehicle_type.png" alt="data_types" width="80%" height="80%">
+
+The average delivery time by vehicle type is shown below. The quickest method to get around is to walk!
+
+truck         61.304430
+car           51.077749
+van           50.749618
+scooter       46.871671
+walker        45.643702
+motorcycle    45.022847
+bicycle       43.251084
 
 ORDER STATS TBD - avg delivery times, prep times, etc. 
 
