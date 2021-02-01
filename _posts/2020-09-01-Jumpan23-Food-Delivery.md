@@ -71,7 +71,7 @@ We can see that Jumpman23 has a problem with customer retention.
 - 7% of customers order more than 3 times
 - <4 % of customers order more than 4 times
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/frequency.png" alt="freq" width="90%" height="90%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/frequency.png" alt="freq" width="100%" height="80%">
 
 Acquiring new customers is very important when launching a business into a new market, and monitoring the number of new customers acquired per day can unlock some useful insights related to marketing performance. In October, Jumpman23 acquired an average of 106 new customers per day, and their growth rate appears to be declining over the month.  
 
