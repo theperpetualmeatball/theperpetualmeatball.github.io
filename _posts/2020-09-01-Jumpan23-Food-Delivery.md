@@ -44,15 +44,17 @@ Bicycles are by far the most popular mode of transportation for a Jumpman, which
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/vehicle_type.png" alt="data_types" width="80%" height="80%">
 
-The average delivery time by vehicle type is shown below. The quickest method to get around is to walk!
+The average delivery time (in minutes) by vehicle type is shown below. The quickest method to get around is to walk!
 
-truck         61.304430
-car           51.077749
-van           50.749618
-scooter       46.871671
-walker        45.643702
-motorcycle    45.022847
-bicycle       43.251084
+Vehicle Type | Average Time 
+--- | --- | --- 
+truck |         61.3 min
+car |          51.1 min
+van  |         50.7 min
+scooter  |     46.9 min
+walker  |      45.6 min
+motorcycle  |  45.0 min
+bicycle   |    43.2 min
 
 ORDER STATS TBD - avg delivery times, prep times, etc. 
 
