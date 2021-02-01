@@ -25,7 +25,7 @@ The data set consists of order delivery times, vehicle types, merchant categoric
 
 After one month of launching Jumpman23's service in NYC, there have been 5214 orders places on the platform, 3192 unique customers acquired, and 898 merchant partners available on the platform. 
 
-## Trends in Delivery Times
+## Delivery trends
 The graph below illustrates the number of orders per day in October. A cyclical pattern in the data shows a peak in the number of deliveries on Sundays. The increase in deliveries in the last half of September suggest that Jumpman23 may be growing in NYC.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/total_deliveries.png" alt="total_deliveries" width="90%" height="90%">
@@ -38,6 +38,11 @@ The two peak hours for delivery are at 12 pm and at 7 pm, correlating to lunch a
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/hourly.png" alt="data_types" width="80%" height="80%">
 
+The average prep time is almost twice as long as the average transit time. The Jumpman spends an average of 18 minutes at the pickup location waiting for the order to be prepared, which is time the Jumpman can spend deleviring another order. We will discuss how Jumpman23 can optimize it's operations by preparing meals in advance in the next section.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/avg_time.png" alt="data_types" width="80%" height="80%">
+
+
 ## Transportation Trends
 
 Bicycles are by far the most popular mode of transportation for a Jumpman, which makes sense given that they are the most economically feasible choice in NYC. 
@@ -46,17 +51,16 @@ Bicycles are by far the most popular mode of transportation for a Jumpman, which
 
 The average delivery time (in minutes) by vehicle type is shown below. The quickest method to get around is to walk!
 
-Vehicle Type | Average Time 
+Vehicle Type | Average Time (min)
 --- | --- | --- 
-truck |         61.3 min
-car |          51.1 min
-van  |         50.7 min
-scooter  |     46.9 min
-walker  |      45.6 min
-motorcycle  |  45.0 min
-bicycle   |    43.2 min
+truck |         61.3 
+car |          51.1 
+van  |         50.7 
+scooter  |     46.9 
+walker  |      45.6 
+motorcycle  |  45.0 
+bicycle   |    43.2 
 
-ORDER STATS TBD - avg delivery times, prep times, etc. 
 
 ## Customer Insights
 According the graph depicting order frequency vs number of customers, only 30% of Jumpman23's customers order more than once! 
@@ -75,54 +79,16 @@ Acquiring new customers is very important when launching a business into a new m
 
 
 ## Merchant Insights
+The top 10 categories and merchants are shown below. 
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/top10categories.png" alt="top10categories" width="90%" height="90%">
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/top10merchants.png" alt="top10merchants" width="90%" height="90%">
+
+The average prep time is 31 minutes, and the average time the Jumpman waits at the pickup location is around 18 minutes. From the histogram, we see that most merchants take between 10-45 minutes to prepare orders. 
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/histogram.png" alt="top10merchants" width="90%" height="90%">
 
 
 
-------------------------
-Here's some basic text.
 
-And here's some *italics*
-
-Here's some **bold** text.
-
-What about a [link](https://github.com/dataoptimal)?
-
-Here's a bulleted list:
-* First item
-+ Second item
-- Third item
-
-Here's a numbered list:
-1. First
-2. Second
-3. Third
-
-Python code block:
-```python
-    import numpy as np
-
-    def test_function(x, y):
-      z = np.sum(x,y)
-      return z
-```
-
-R code block:
-```r
-library(tidyverse)
-df <- read_csv("some_file.csv")
-head(df)
-```
-
-Here's some inline code `x+y`.
-
-Here's an image:
-<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg" alt="linearly separable data">
-
-Here's another image using Kramdown:
-![alt]({{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg)
-
-Here's some math:
-
-$$z=x+y$$
-
-You can also put it inline $$z=x+y$$
