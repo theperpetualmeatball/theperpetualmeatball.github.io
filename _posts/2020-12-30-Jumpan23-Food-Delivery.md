@@ -125,7 +125,8 @@ The graph of customers who ordered more than 3 times is shown on the right, next
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/income.png" alt="top10merchants">
 
 Legend:
-<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/legend.png" alt="top10merchants" width="80%" height="80%">
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/legend.png" alt="top10merchants" width="40%" height="40%">
 
 
 
