@@ -1,5 +1,3 @@
-
-
 ---
 title: "Analyzing Food Delivery Trends in New York City"
 date: 2020-09-01
