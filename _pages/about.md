@@ -2,7 +2,9 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/meatball2.png"
+  image: "/images/banner.png"
 ---
 
-I’m an apsiring data scientist, experienced with Python programming. I specialize in machine learning techniques, and data wrangling. I love working on projects together, so feel free to reach out for collaboration!
+Welcome to my blog! 
+
+I'm currently a freelance data scientist. I am very interested in product analytics. I have experience launching mobile products at a large financial institution, strong business acumen, and advanced SQL skills.  I have a degree in physics from McMaster University, and a data science bootcamp education. 
