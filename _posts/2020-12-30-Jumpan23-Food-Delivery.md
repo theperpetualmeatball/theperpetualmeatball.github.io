@@ -104,7 +104,7 @@ It appears that only account for 4% of all orders are delivered to Brooklyn, and
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/borough_analysis.png" alt="top10merchants" width="80%" height="80%">
 
-
+# Analysis
 ## Why do some customers order more frequently?
 
 Acquiring new customers can become very expensive over time, and it may be more cost-effective to retain existing customers. According to the data, only 30% of customers order more than once, which is very low!
@@ -119,16 +119,37 @@ The following Class 1 and Class 2+ comparisons did not show any significant diff
  
 I tried to think about my own food delivery habits, and realized I only order once or twice a month from Ubereats because it can get pretty expensive. Income might play an important factor to customers who order frequently, such as once a week. Being the determined data scientist that I am, I gathered some ancillary data to support my hypothesis - the NYC median household income map!
 
-The graph of customers who ordered more than 3 times is shown on the right, next to a map of NYC depicting the median household income by neighbourhood (left). Comparing the two graphs side-by-side, we can see that customers who ordered almost once a week are clustered in the light blue to dark blue regions, suggesting a median household income of greater than 100K per year. 
+The graph of customers who ordered more than 3 times is shown on the right, next to a map of NYC, depicting the median household income by neighbourhood (to the left). Comparing the two graphs side-by-side, we can see that customers who ordered almost once a week are clustered in the light blue to dark blue regions, suggesting a median household income of greater than 100K per year. 
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/income.png" alt="top10merchants">
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/income.png" alt="top10merchants" width="120%" height="120%">
 
 Legend:
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/legend.png" alt="top10merchants" width="40%" height="40%">
 
+# What do repeating customers order?
+Do customers who order 3 or 4 times a month order differently than customers who order only once? The top 10 merchants for both classes are shown along with the price range pulled from Yelp.
 
+Price ranges does not appear to differ between the two groups; however, we see more healthy food options, such sweetgreen and Whole Foods move up the list for customers who order frequently. Extravagant meal options like Suhi and BBQ also moved up the list. Interestingly, we see that McDonald's is a popular option for frequent orderers, which may suggest that busy individuals with lower budgets may also be ordering frequently. Either that, or everyone wants a Happy Meal now and then!
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/class3orders.png" alt="top10merchants" width="40%" height="40%">
+
+# Conclusion
+There we have it - a full breakdown of Jumpman23's food delivery operations in NYC! We can use our data analysis to make some reccomendations to Jumpman23's marketing team to help with customer acquisition and retention, and improve upon the platform's service. 
+
+### Customer Acquisition
+ - Run more marketing campaigns in Brooklyn with a focus on high median household income neighbourhoods
+ - Good days to run campaigns are Sundays and Thursdays; best times are around noon and dinner 
+ - Run promotional offers for popular restaurants like Shake Shack
+ 
+### Customer Retention
+ - Focus retention in areas with high median household income
+ - Partner with more merchants offering healthy food options (prices in '$$' range are most popular)
+ 
+### Improving Service Efficiency
+ - Order most popular meals ahead of time, for merchants in the top 10 list, to cut down on delivery time 
+ - Partner with more merchants in locations where there are higher drop-offs v.s pickups (see heatmap)
+ - Partner with more merchants in dense manhattan dropoff locations to increase the merchant:customer ratio
  
  
