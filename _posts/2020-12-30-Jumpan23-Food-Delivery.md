@@ -122,7 +122,7 @@ I tried to think about my own food delivery habits, and realized I only order on
 The graph of customers who ordered more than 3 times is shown on the right, next to a map of NYC, depicting the median household income by neighbourhood (to the left). Comparing the two graphs side-by-side, we can see that customers who ordered almost once a week are clustered in the light blue to dark blue regions, suggesting a median household income of greater than 100K per year. 
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/income.png" alt="top10merchants" width="120%" height="120%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/income.png" alt="top10merchants" >
 
 Legend:
 
