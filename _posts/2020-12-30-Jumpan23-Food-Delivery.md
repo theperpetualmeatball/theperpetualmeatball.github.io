@@ -92,14 +92,14 @@ The average prep time is 31 minutes, and the average time the Jumpman waits at t
 ## Geographical Distribution of Deliveries
 Comparing the heatmap of the pickup locations vs the dropoff locations, we see that drop-off locations are more spread out in Upper Manhattan and Brooklyn/Queens, and pickup locations are centred in lower manhatten and midtown. From first glance, it seems like there is a lack of merchant partners in Brooklyn, where this is a higher dropoff vs pickup rate. 
  
-<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/heatmap.png" alt="top10merchants" width="120%" height="120%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/heatmap.png" alt="top10merchants" width="140%" height="140%">
 
 I decided to dive deeper into the data to compare Jumpman23's performance in Manhatten, Brooklyn, and Queens.
 To do this, I first clipped the geographical data into boroughs using geopandas. I downloaded a dataset from New York City Open Data, which contained all the latitude and longtitude data and polygon information for all three boroughs. Once I successfully clipped the data and sorted the orders by borough, it was finally ready for analysis.
 
 It appears that only account for 4% of all orders are delivered to Brooklyn, and there are almost no oders delivered to Queens. The merchants:orders ratio is ~16.7% in Manhattan and ~31.2% in Brooklyn. The heatmap suggested that there was a lack of merchant partners in Brooklyn; however, we are now seeing that there is actually fewer merchants per customer in Manhattan!
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/borough_analysis.png" alt="top10merchants">
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/borough_analysis.png" alt="top10merchants" width="80%" height="80%">
 
 
 
