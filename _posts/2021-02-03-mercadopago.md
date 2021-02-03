@@ -1,5 +1,5 @@
 ---
-title: "Analyzing E-commerce growth in Latin America"
+title: "E-commerce growth in Latin America"
 date: 2021-02-03
 tags: [e-commerce, data science, mercadopago]
 header:
