@@ -135,7 +135,7 @@ Do customers who order 3 or 4 times a month order differently than customers who
 
 Price ranges does not appear to differ between the two groups; however, we see more healthy food options, such sweetgreen and Whole Foods move up the list for customers who order frequently. Extravagant meal options like Suhi and BBQ also moved up the list. Interestingly, we see that McDonald's is a popular option for frequent orderers, which may suggest that busy individuals with lower budgets may also be ordering frequently. Either that, or everyone wants a Happy Meal now and then!
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/class3orders.png" alt="top10merchants" width="40%" height="40%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/class3orders.png" alt="top10merchants">
 
 
 # Conclusion
