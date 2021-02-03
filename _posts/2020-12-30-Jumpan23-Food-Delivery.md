@@ -95,7 +95,7 @@ The average prep time is 31 minutes, and the average time the Jumpman waits at t
 ## Geographical Distribution of Deliveries
 Comparing the heatmap of the pickup locations vs the dropoff locations, we see that drop-off locations are more spread out in Upper Manhattan and Brooklyn/Queens, and pickup locations are centred in lower manhatten and midtown. From first glance, it seems like there is a lack of merchant partners in Brooklyn, where this is a higher dropoff vs pickup rate. 
  
-<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/heatmap.png" alt="top10merchants" width="140%" height="140%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/heatmap.png" alt="top10merchants">
 
 I decided to dive deeper into the data to compare Jumpman23's performance in Manhatten, Brooklyn, and Queens.
 To do this, I first clipped the geographical data into boroughs using geopandas. I downloaded a dataset from New York City Open Data, which contained all the latitude and longtitude data and polygon information for all three boroughs. Once I successfully clipped the data and sorted the orders by borough, it was finally ready for analysis.
@@ -103,6 +103,8 @@ To do this, I first clipped the geographical data into boroughs using geopandas.
 It appears that only account for 4% of all orders are delivered to Brooklyn, and there are almost no oders delivered to Queens. The merchants:orders ratio is ~16.7% in Manhattan and ~31.2% in Brooklyn. The heatmap suggested that there was a lack of merchant partners in Brooklyn; however, we are now seeing that there is actually fewer merchants per customer in Manhattan!
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/borough_analysis.png" alt="top10merchants" width="80%" height="80%">
+
+
 
 # Analysis
 ## Why do some customers order more frequently?
@@ -134,6 +136,7 @@ Do customers who order 3 or 4 times a month order differently than customers who
 Price ranges does not appear to differ between the two groups; however, we see more healthy food options, such sweetgreen and Whole Foods move up the list for customers who order frequently. Extravagant meal options like Suhi and BBQ also moved up the list. Interestingly, we see that McDonald's is a popular option for frequent orderers, which may suggest that busy individuals with lower budgets may also be ordering frequently. Either that, or everyone wants a Happy Meal now and then!
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/class3orders.png" alt="top10merchants" width="40%" height="40%">
+
 
 # Conclusion
 There we have it - a full breakdown of Jumpman23's food delivery operations in NYC! We can use our data analysis to make some reccomendations to Jumpman23's marketing team to help with customer acquisition and retention, and improve upon the platform's service. 
