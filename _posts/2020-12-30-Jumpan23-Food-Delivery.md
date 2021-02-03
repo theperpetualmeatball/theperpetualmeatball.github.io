@@ -39,7 +39,7 @@ The two peak hours for delivery are at 12 pm and at 7 pm, correlating to lunch a
 
 The average prep time is almost twice as long as the average transit time. The Jumpman spends an average of 18 minutes at the pickup location waiting for the order to be prepared, which is time the Jumpman can spend deleviring another order. We will discuss how Jumpman23 can optimize it's operations by preparing meals in advance in the next section.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/avg_time.png" alt="avg_time" width="80%" height="80%">
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/avg_times.png" alt="avg_time" width="80%" height="80%">
 
 
 ## Transportation Trends
