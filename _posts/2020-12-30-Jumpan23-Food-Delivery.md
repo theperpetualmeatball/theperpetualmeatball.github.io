@@ -14,6 +14,11 @@ Jumpman23 is an on-demand food delivery platform connecting customers to "Jumpma
 
 We will be diving into the data to understand how Jumpman23's has performed in NY, as well as identify any key trends related to customer, merchant, and Jumpman behavior. Finally, using the data analysis to drive our decision making, we can discuss some steps Jumpman23 can take to optimize their growth strategy.
 
+Here is the jupter notebook link for the [data cleaning] [data_cleaning] and the [full data analysis] [data_analysis].
+
+[data_cleaning]: https://github.com/theperpetualmeatball/Jumpman23/blob/main/Jumpman23%20-%20Cleaning%20the%20Data.ipynb
+[data_analysis]: https://github.com/theperpetualmeatball/Jumpman23/blob/main/Jumpman23%20-%20Analysis.ipynb
+
 ### Data Dictionary
 
 The data set consists of order delivery times, vehicle types, merchant categorical data, and geographical coordinates corresponding to order pickup and drop off locations. 
