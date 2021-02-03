@@ -1,13 +1,13 @@
 
+
 ---
-title: "Analyzing E-commerce growth in Latin America"
-date: 2021-02-03
-tags: [e-commerce, data science, mercadopago]
+title: "Analyzing Food Delivery Trends in New York City"
+date: 2020-09-01
+tags: [food delivery, data science, new york city]
 header:
-  image: "/images/jumpman23/mercadopago_banner.jpg"
-excerpt: "Coming out soon!!"
+  image: "/images/jumpman23/banner.png"
+excerpt: "Marketing, Expansion, Food Delivery"
 mathjax: "true"
 ---
-
 
 Coming out soon!!
