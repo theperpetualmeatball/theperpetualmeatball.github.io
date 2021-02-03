@@ -11,9 +11,9 @@ mathjax: "true"
 # Introduction
 
 Jumpman23 is an on-demand food delivery platform connecting customers to "Jumpman", a vast network of couriers. Jumpman23 recently launched in its newest market, New York City.
+The CEO of Jumpman23 wants to know how they have been performing in NYC, and wants us to come up with strategy to grow their business by 20%. 
 
-We will be diving into the data to understand how Jumpman23's has performed in NY, as well as identify any key trends related to customer, merchant, and Jumpman behavior. 
-
+We will be diving into the data to understand how Jumpman23's has performed in NY, as well as identify any key trends related to customer, merchant, and Jumpman behavior. Finally, we'll create a growth strategy plan using the data analysis to drive our decision making.
 
 ### Data Dictionary
 
@@ -104,4 +104,4 @@ It appears that only account for 4% of all orders are delivered to Brooklyn, and
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/borough_analysis.png" alt="top10merchants" width="80%" height="80%">
 
 
-
+# Growth Strategy
