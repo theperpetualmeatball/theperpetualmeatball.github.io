@@ -11,9 +11,8 @@ mathjax: "true"
 # Introduction
 
 Jumpman23 is an on-demand food delivery platform connecting customers to "Jumpman", a vast network of couriers. Jumpman23 recently launched in its newest market, New York City.
-The CEO of Jumpman23 wants to know how they have been performing in NYC, and wants us to come up with strategy to grow their business by 20%. 
 
-We will be diving into the data to understand how Jumpman23's has performed in NY, as well as identify any key trends related to customer, merchant, and Jumpman behavior. Finally, we'll create a growth strategy plan using the data analysis to drive our decision making.
+We will be diving into the data to understand how Jumpman23's has performed in NY, as well as identify any key trends related to customer, merchant, and Jumpman behavior. Finally, using the data analysis to drive our decision making, we can discuss some steps Jumpman23 can take to optimize their growth strategy.
 
 ### Data Dictionary
 
@@ -106,35 +105,29 @@ It appears that only account for 4% of all orders are delivered to Brooklyn, and
 <img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/borough_analysis.png" alt="top10merchants" width="80%" height="80%">
 
 
-# Growth Strategy
-In October, there were 5,214 orders placed through the delivery platform. To grow by 20% in the next two months, Jumpman23 needs to gain 1043 orders or 522 orders per month for the next two months. In other words, Jumpman23 must meet the monthly target of 5,736 orders for November and December.
+## Why do some customers order more frequently?
 
-Jumpman23 should focus on the following two strategies:
-1 - Customer Acquisition 
-2 - Customer Retention
-
-## Customer Acquisition
-Before calculating how many new customers Jumpman23 needs to acquire, we must first determine how many orders we can expect from the existing customer base. To do this, the customers will be divided into two classes:
-
-Class 1- Customers who have only ordered once. We are going to make an assumption that 30% of these customers will order again next month based off the pattern seen in October.
-
-Class 2+ - Customer who have ordered more than once. On average, customers from Class 2+ order 3.1 times per month, which we will assume will remain consistent next month.
-
-Class | Number of Customers | Expected orders next month
---- | --- | --- 
-1 |  2216 | 665
-2+ | 976 | 3026
-
-We have determined that we can expect 3,691 orders (Class 1 + Class 2+) from our existing customer base. To meet our goal, we still need 2045 orders, which we can get by acquiring new customers. According to the data from October, Jumpman23 acquired an average of 106.4 new customers per day (slide 8). At this rate, we can expect 3,192 new customers to use the platform next month. Assuming a similar 30/70 ratio of Class 1 and Class 2+ type customers, we can expect that 2,234 customers (from Class 1) will order only once, accounting for 2,234 orders, and 958 customers (from Class 2+) will order an average of 3.1 times, accounting for 2,969 orders.
-Summing the order contributions from new customers and existing customers, we get 8,894 total orders, which is much greater than our goal. Acquiring customers can be expensive, so in order to meet the minimum target of 5,736 total orders, Jumpan23 only needs to acquire 41.8 new customers per day or 1,254 customers per month.
-
-## Customer Retention
 Acquiring new customers can become very expensive over time, and it may be more cost-effective to retain existing customers. According to the data, only 30% of customers order more than once, which is very low!
 
-What factors lead to customers ordering more than once? When comparing Class 1 and Class 2+ customers directly, the data did not show any significant differences.
- - The average delivery time for Class 1 (ordered once) and Class 2+ customers (ordered more than once) was 45.6 and 45 mins respectively.
- - The average transit time for both classes was ~ 14 mins (i.e food temperature was not an affect) Percentage of customers ordering more than once were similar for Manhattan and Brooklyn
+What factors lead to customers ordering more than once? I decided to divivde the data into two classes: Class 1 include customers who have ordered only once, and Class2+ include customers ordering more than once.
+
+The following Class 1 and Class 2+ comparisons did not show any significant differences:
+ - The average delivery time for Class 1 and Class 2+ customers was 45.6 and 45 mins respectively
+ - The average transit time for both classes was ~ 14 mins (i.e food temperature was not an affect) 
+ - Percentage of customers ordering more than once were similar for Manhattan and Brooklyn
  - The most common vehicle type for jumpman in both classes was bikes, followed by cars and walking
  
-What if we compared Class 1 customers to customers who ordered at least 3 times or 4 times (i.,e Class 3 and Class 4+)? Customers from these classes are ordering roughly once a week, which suggests that income may be an important factor.
+I tried to think about my own food delivery habits, and realized I only order once or twice a month from Ubereats because it can get pretty expensive. Income might play an important factor to customers who order frequently, such as once a week. Being the determined data scientist that I am, I gathered some ancillary data to support my hypothesis - the NYC median household income map!
 
+The graph of customers who ordered more than 3 times is shown on the right, next to a map of NYC depicting the median household income by neighbourhood (left). Comparing the two graphs side-by-side, we can see that customers who ordered almost once a week are clustered in the light blue to dark blue regions, suggesting a median household income of greater than 100K per year. 
+
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/income.png" alt="top10merchants">
+
+Legend:
+<img src="{{ site.url }}{{ site.baseurl }}/images/jumpman23/legend.png" alt="top10merchants" width="80%" height="80%">
+
+
+
+ 
+ 
