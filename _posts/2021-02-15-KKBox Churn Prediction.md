@@ -1,8 +1,24 @@
+---
+title: "KKBox Churn Prediction"
+date: 2021-02-15
+tags: [churn prediction, data science, music streaming]
+header:
+  image: "/images/kkbox/kkbox.png"
+excerpt: "Churn Prediction, Music Streaming, Data Science"
+mathjax: "true"
+---
+
+
+
 ## Overview
 
 KKBOX is Asia’s leading music streaming service, holding the world’s most comprehensive Asia-Pop music library with over 30 million tracks. They offer a generous, unlimited version of their service to millions of people, supported by advertising and paid subscriptions. This delicate model is dependent on accurately predicting churn of their paid users.
 
 In this project, we will build an algorithm that predicts whether a user will churn after their subscription expires. Here, we will determine that churn has occured if the customer has not renewed their subscription 30 days after it has expired or has been cancelled. Currently, the company uses survival analysis techniques to determine the residual membership life time for each subscriber. By adopting different methods, KKBOX anticipates they’ll discover new insights to why users leave so they can be proactive in keeping users dancing.
+
+You can view the jupter notebook link [here] [data_analysis].
+
+[data_analysis]: https://github.com/theperpetualmeatball/kkbox_churn_prediction/blob/main/Churn%20Prediction%20Model.ipynb
 
 
 ```python
