@@ -1165,290 +1165,6 @@ user_logs_v3 = user_logs_v2.drop(columns = ['num_25', 'num_50', 'num_75', 'num_9
 ```
 
 
-```python
-user_logs_v3
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>msno</th>
-      <th>max_date</th>
-      <th>num_unq</th>
-      <th>total_secs</th>
-      <th>counts_30</th>
-      <th>num_unq_30</th>
-      <th>total_secs_30</th>
-      <th>counts_60</th>
-      <th>num_unq_60</th>
-      <th>total_secs_60</th>
-      <th>counts_90</th>
-      <th>num_unq_90</th>
-      <th>total_secs_90</th>
-      <th>today</th>
-      <th>days_since_last</th>
-      <th>percent_25</th>
-      <th>percent_50</th>
-      <th>percent_100</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>+++IZseRRiQS9aaSkH6cMYU6bGDcxUieAi/tH67sC5s=</td>
-      <td>2017-03-31</td>
-      <td>139</td>
-      <td>117907.425</td>
-      <td>3.0</td>
-      <td>25.0</td>
-      <td>4245.614</td>
-      <td>3.0</td>
-      <td>25.0</td>
-      <td>4245.614</td>
-      <td>3.0</td>
-      <td>25.0</td>
-      <td>4245.614</td>
-      <td>2017-03-31</td>
-      <td>0</td>
-      <td>0.147260</td>
-      <td>0.018836</td>
-      <td>0.816781</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>+++hVY1rZox/33YtvDgmKA2Frg/2qhkz12B9ylCvh8o=</td>
-      <td>2017-03-31</td>
-      <td>59</td>
-      <td>192527.892</td>
-      <td>1.0</td>
-      <td>5.0</td>
-      <td>924.747</td>
-      <td>1.0</td>
-      <td>5.0</td>
-      <td>924.747</td>
-      <td>1.0</td>
-      <td>5.0</td>
-      <td>924.747</td>
-      <td>2017-03-31</td>
-      <td>0</td>
-      <td>0.175390</td>
-      <td>0.082645</td>
-      <td>0.673095</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>+++l/EXNMLTijfLBa8p2TUVVVp2aFGSuUI/h7mLmthw=</td>
-      <td>2017-03-31</td>
-      <td>43</td>
-      <td>115411.260</td>
-      <td>1.0</td>
-      <td>7.0</td>
-      <td>1395.247</td>
-      <td>1.0</td>
-      <td>7.0</td>
-      <td>1395.247</td>
-      <td>1.0</td>
-      <td>7.0</td>
-      <td>1395.247</td>
-      <td>2017-03-31</td>
-      <td>0</td>
-      <td>0.075838</td>
-      <td>0.021164</td>
-      <td>0.876543</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>+++snpr7pmobhLKUgSHTv/mpkqgBT0tQJ0zQj6qKrqc=</td>
-      <td>2017-03-30</td>
-      <td>124</td>
-      <td>149896.558</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>2017-03-31</td>
-      <td>1</td>
-      <td>0.213402</td>
-      <td>0.168041</td>
-      <td>0.515464</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>++/9R3sX37CjxbY/AaGvbwr3QkwElKBCtSvVzhCBDOk=</td>
-      <td>2017-03-31</td>
-      <td>34</td>
-      <td>116433.247</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>2017-03-31</td>
-      <td>0</td>
-      <td>0.153959</td>
-      <td>0.035191</td>
-      <td>0.753666</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>1103889</th>
-      <td>zzy7iqSpfcRq7R4hmKKuhI+CJRs79a6pteqEggpiNO0=</td>
-      <td>2017-03-31</td>
-      <td>56</td>
-      <td>268039.763</td>
-      <td>1.0</td>
-      <td>2.0</td>
-      <td>401.773</td>
-      <td>1.0</td>
-      <td>2.0</td>
-      <td>401.773</td>
-      <td>1.0</td>
-      <td>2.0</td>
-      <td>401.773</td>
-      <td>2017-03-31</td>
-      <td>0</td>
-      <td>0.094642</td>
-      <td>0.048017</td>
-      <td>0.825331</td>
-    </tr>
-    <tr>
-      <th>1103890</th>
-      <td>zzyHq6TK2+cBkeGFUHvh12Z7UxFZiSM7dOOSllSBPDw=</td>
-      <td>2017-03-31</td>
-      <td>158</td>
-      <td>477846.789</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>2017-03-31</td>
-      <td>0</td>
-      <td>0.007892</td>
-      <td>0.003714</td>
-      <td>0.985144</td>
-    </tr>
-    <tr>
-      <th>1103891</th>
-      <td>zzz1Dc3P9s53HAowRTrm3fNsWju5yeN4YBfNDq7Z99Q=</td>
-      <td>2017-03-31</td>
-      <td>34</td>
-      <td>60953.725</td>
-      <td>2.0</td>
-      <td>47.0</td>
-      <td>14023.971</td>
-      <td>2.0</td>
-      <td>47.0</td>
-      <td>14023.971</td>
-      <td>2.0</td>
-      <td>47.0</td>
-      <td>14023.971</td>
-      <td>2017-03-31</td>
-      <td>0</td>
-      <td>0.116197</td>
-      <td>0.035211</td>
-      <td>0.806338</td>
-    </tr>
-    <tr>
-      <th>1103892</th>
-      <td>zzzF1KsGfHH3qI6qiSNSXC35UXmVKMVFdxkp7xmDMc0=</td>
-      <td>2017-03-28</td>
-      <td>44</td>
-      <td>59525.679</td>
-      <td>1.0</td>
-      <td>10.0</td>
-      <td>4844.580</td>
-      <td>1.0</td>
-      <td>10.0</td>
-      <td>4844.580</td>
-      <td>1.0</td>
-      <td>10.0</td>
-      <td>4844.580</td>
-      <td>2017-03-31</td>
-      <td>3</td>
-      <td>0.040816</td>
-      <td>0.004082</td>
-      <td>0.951020</td>
-    </tr>
-    <tr>
-      <th>1103893</th>
-      <td>zzzueVTwIa5TjXnG2c77bohCVkuksqLkd5mQTP0wTwQ=</td>
-      <td>2017-03-03</td>
-      <td>3</td>
-      <td>232.490</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>NaN</td>
-      <td>2017-03-31</td>
-      <td>28</td>
-      <td>0.666667</td>
-      <td>0.000000</td>
-      <td>0.333333</td>
-    </tr>
-  </tbody>
-</table>
-<p>1103894 rows × 18 columns</p>
-</div>
-
-
-
 
 ```python
 #explore correlation with target variable
@@ -2277,11 +1993,6 @@ replacemean('total_secs_60')
 replacemean('total_secs_90')
 
 
-#replacemean('registration_day')
-#replacemean('transaction_day')
-#replacemean('membership_expire_day')
-#replacemean('last_play_day')
-
 
 # Handle outliers by using capping
 def replaceoutlier(i):
@@ -2310,11 +2021,6 @@ replaceoutlier('num_unq_90')
 replaceoutlier('total_secs_30')
 replaceoutlier('total_secs_60')
 replaceoutlier('total_secs_90')
-
-# replaceoutlier('registration_day')
-# replaceoutlier('transaction_day')
-# replaceoutlier('membership_expire_day')
-#replaceoutlier('last_play_day')
 
 ```
 
@@ -2738,13 +2444,6 @@ model.fit(nm_X_train, nm_Y_train)
 plot_importance(model)
 pyplot.show()
 ```
-
-    [20:49:18] WARNING: /Users/travis/build/dmlc/xgboost/src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-
-
-
-    
-![png](output_38_1.png)
     
 
 
@@ -2785,26 +2484,6 @@ logloss = log_loss(nm_Y_test, nm_Y_predict)
 print("Log Loss Score: %s" % (logloss))
 ```
 
-    /Users/nia/opt/anaconda3/lib/python3.8/site-packages/xgboost/sklearn.py:888: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-
-
-    [21:54:10] WARNING: /Users/travis/build/dmlc/xgboost/src/learner.cc:1061: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    Best: -0.146191 using {'colsample_bytree': 0.8, 'gamma': 0.1, 'learning_rate': 0.1, 'max_depth': 9, 'min_child_weight': 1, 'objective': 'binary:logistic', 'subsample': 0.8}
-    Log Loss Score: 0.14651804739682245
-
-
-
-```python
-#save model so you don't have to retrain
-import joblib
-joblib.dump(grid_result_XGB.best_estimator_, 'trained-models/xgboost_model_v2.pkl')
-```
-
-
-
-
-    ['trained-models/xgboost_model_v2.pkl']
 
 
 
@@ -2900,15 +2579,3 @@ So far, we see that model has a high accuracy score of 95% and a low log loss va
 To improve the model further, we can try to remove non-important features and compare our scores. From there, we can also do more feature engineering and comapare once more. 
 
 
-
-```python
-## submitting to kaggle
-# final_2=pd.concat([dataset_train[['msno']],final],axis=1)
-# final_2 = final_2.merge(sample_submission['msno'], on='msno', how='right')
-# final_3 = final_2[['msno', 'is_churn']]
-# final_3['is_churn'] = final_3['is_churn'].fillna(0)
-# final_3['is_churn'] = final_3['is_churn'].astype(int)
-
-##write to a csv file
-#final_3.to_csv('final.csv',index=False)
-```
