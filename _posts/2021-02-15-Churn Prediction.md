@@ -16,6 +16,10 @@ KKBOX is Asia’s leading music streaming service, holding the world’s most co
 
 In this project, we will build an algorithm that predicts whether a user will churn after their subscription expires. Here, we will determine that churn has occured if the customer has not renewed their subscription 30 days after it has expired or has been cancelled. Currently, the company uses survival analysis techniques to determine the residual membership life time for each subscriber. By adopting different methods, KKBOX anticipates they’ll discover new insights to why users leave so they can be proactive in keeping users dancing.
 
+You can view the jupter notebook link [here] [data_analysis].
+
+[data_analysis]: https://github.com/theperpetualmeatball/kkbox_churn_prediction/blob/main/Churn%20Prediction%20Model.ipynb
+
 
 ```python
 import pandas as pd
