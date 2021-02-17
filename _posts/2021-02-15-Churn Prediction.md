@@ -509,7 +509,6 @@ print(members.shape)
 
 Transactions and user_logs contain duplicate msno values because they provide granular data for each user per day. We will need to group the data by the msno column (user id) in order to merge it with the rest of the data.
 
-We are also seeing some weird things happening with all of the data having different number of rows. The train df has more rows than the sample submission, so there will be a lot of msno rows with null values when merging with the submissions dataframe. This will NOT affect our accuracy, but will be an issue when submitting our results to Kaggle.
 
 ## Explore feature correlation to target variable (is_churn)
 
